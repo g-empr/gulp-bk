@@ -1,0 +1,22 @@
+{
+  "name": "gulp-bk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-empr/gulp-bk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-empr/gulp-bk/issues"
+  },
+  "homepage": "https://github.com/g-empr/gulp-bk#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
