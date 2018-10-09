@@ -51,3 +51,4 @@ gulp img
 ```
 gulp lint
 ```
+※画像やcss/jsファイルの読み込みがうまくいかない場合、watchの前に圧縮したりbuildしたりを試すこと。
