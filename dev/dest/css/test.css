@@ -7,3 +7,9 @@ body .wrapper {
   height: 500px;
   background-color: red;
 }
+
+body .wrapper .item {
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/test.png');
+}
