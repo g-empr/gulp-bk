@@ -13,22 +13,29 @@ root/
 　│　│　├─ js/
 　│　│　├─ css/
 　│　│　└─ index.html
+　│　│
 　│　├─ gulp/
+　│　│　│
 　│　│　├─ tasks/
+　│　│　│　│
 　│　│　│　├─ browser_sync.js
 　│　│　│　├─ css_lint.js
 　│　│　│　├─ html.js
 　│　│　│　├─ images_min.js
 　│　│　│　├─ js_build.js
 　│　│　│　└─ sass.js
+　│　│　│
 　│　│　├─ config.js
 　│　│　└─ plugin.js
+　│　│
 　│　├─ src/
 　│　│　├─ images/
 　│　│　├─ js/
 　│　│　├─ scss/
 　│　│　└─ index.html
+　│　│
 　│　└─ gulpfile.js
+　│
 　├─ dev_folder_B/
 　├─ dev_folder_C/
 　└─ package.json
