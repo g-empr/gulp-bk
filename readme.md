@@ -13,7 +13,7 @@ root/
 　│　│　├─ js/
 　│　│　├─ css/
 　│　│　└─ index.html
-　│　└─ gulp/
+　│　├─ gulp/
 　│　│　├─ tasks/
 　│　│　│　├─ browser_sync.js
 　│　│　│　├─ css_lint.js
