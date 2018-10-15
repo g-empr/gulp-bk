@@ -8,6 +8,7 @@
 root/
 　├─ node_modules/
 　├─ dev_folder_A/
+　│　│
 　│　├─ dest/
 　│　│　├─ images/
 　│　│　├─ js/
