@@ -39,7 +39,7 @@ root/
 　│
 　├─ dev_folder_B/
 　├─ dev_folder_C/
-　├─...
+　├─ ...
 　└─ package.json
 ```
 
