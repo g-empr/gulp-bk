@@ -44,7 +44,7 @@ module.exports = {
             csslint: {
                 'empty-rules': true, // 空のセレクタをチェック
                 'display-property-grouping': true, //指定が誤っているプロパティをチェック
-                'import': false, //他の外部cssを読み込んでいるかチェック
+                'import': true, //他の外部cssを読み込んでいるかチェック
                 'known-properties': true, // 存在しないプロパティがないかチェック
                 'star-property-hack': false, // 古いブラウザ対策
                 'order-alphabetical': false, // アルファベット順を考慮しない

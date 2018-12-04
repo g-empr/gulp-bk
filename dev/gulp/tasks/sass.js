@@ -15,11 +15,13 @@ $.gulp.task('sass', () => {
         }))
         .pipe($.sassGlob())
         .pipe($.sass({
-            outputStyle: 'expanded'
+            outputStyle: 'compressed'
         }))
         .pipe($.csscomb())
-        .pipe($.autoprefixer(['last 3 versions', 'ie >= 9', 'Android >= 4', 'iOS >= 9']))
+        .pipe($.autoprefixer(['last 3 versions', 'Firefox >= 20', 'ie >= 9', 'Android >= 4', 'iOS >= 9']))
         .pipe($.gcmq())
+        .pipe($.replace(/@charset "UTF-8";/g, ''))
+        .pipe($.header('@charset "UTF-8";\n\n'))
         .pipe($.rename(function (path) {
             path.dirname = path.dirname.replace('scss', 'css');
         }))
