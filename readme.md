@@ -7,7 +7,7 @@
 ```
 root/
 　├─ node_modules/
-　├─ dev_folder_A/
+　├─ dev_dir_A/
 　│　│
 　│　├─ dest/
 　│　│　├─ images/
@@ -37,8 +37,8 @@ root/
 　│　│
 　│　└─ gulpfile.js
 　│
-　├─ dev_folder_B/
-　├─ dev_folder_C/
+　├─ dev_dir_B/
+　├─ dev_dir_C/
 　├─ ...
 　└─ package.json
 ```
